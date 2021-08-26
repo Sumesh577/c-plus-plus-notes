@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+// Function overloading
+
+void display(string name){
+    cout<<name<<endl;
+}
+
+
+void display(){
+    cout<<"I am compiler"<<endl;
+}
+
+int main()
+{
+    string name= "Testing name";
+    display(name);
+    display();
+
+    return 0;
+}
